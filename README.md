@@ -28,14 +28,29 @@
 - 🧩 相信「每天要点五下的操作，值得做成一个应用」
 - 💬 有问题欢迎开 issue
 
-| 项目 | 一句话 | 状态 |
+### 工作室产品线
+
+产品线统一放在组织 [@VineTurtleStudio](https://github.com/VineTurtleStudio) 下：
+
+| 项目 | 一句话 | 技术栈 |
 |---|---|---|
-| **VinePalma Player** | 基于 FFmpeg 的本地播放器（Tauri + Rust） | [公开](https://github.com/VineTurtle/VinePalmaPlayer-Tauri) |
-| **VinePalma Pet** | 2D 桌面宠物：帧动画、点击穿透、沙箱插件 | 私有 |
-| **VinePalma Toolbox** | 图片 / 文本多功能工具箱 | 私有 |
-| **VineHub** | 文件类工具的统一主面板（monorepo + sidecar 插件） | 私有 |
-| **治世 · vine-sinitic** | Godot 4 游戏原型 | 私有 |
-| **GrapeLeafi** | 静态粉丝站 | [公开](https://github.com/VineTurtle/GrapeLeafi) |
+| **[VineHub](https://github.com/VineTurtleStudio/VineHub)** | 文件类工具的统一主面板，插件走 sidecar | Tauri 2 + React |
+| **[VinePalmaPet](https://github.com/VineTurtleStudio/VinePalmaPet)** | 2D 桌面宠物：帧动画、点击穿透、沙箱插件 | Tauri 2 + React |
+| **[VinePalmaLeaf](https://github.com/VineTurtleStudio/VinePalmaLeaf)** | 本地优先的电子书阅读器（EPUB / PDF / TXT） | Tauri 2 + React |
+| **[VinePalmaFlow](https://github.com/VineTurtleStudio/VinePalmaFlow)** | 项目管理，数据是 Markdown / YAML，局域网同步 | Tauri 2 + React |
+| **[VinePalmaUninstaller](https://github.com/VineTurtleStudio/VinePalmaUninstaller)** | Linux 应用卸载与残留清理（apt / flatpak / snap / docker） | Tauri 2 + Rust |
+| **[VinePalma-Player](https://github.com/VineTurtleStudio/VinePalma-Player)** | 基于 FFmpeg 的桌面媒体播放器 | Tauri 2 + Rust |
+
+### 个人小工具
+
+| 项目 | 一句话 | 技术栈 |
+|---|---|---|
+| **[album-renamer](https://github.com/VineTurtle/album-renamer)** | 扫描图册批量重命名，浏览器界面 + 本地 Node 服务 | Node.js |
+| **[ratio-guardian](https://github.com/VineTurtle/ratio-guardian)** | 按下载 / 上传比例自动调速、守住磁盘上限 | PowerShell |
+| **[Java-PDF-Scanner-Enhancer](https://github.com/VineTurtle/Java-PDF-Scanner-Enhancer)** | 扫描版 PDF 逐页转图，按页面类型分别增强 | Java + OpenCV |
+| **[GrapeLeafi](https://github.com/VineTurtle/GrapeLeafi)** | 静态粉丝站 | HTML / CSS |
+
+> 其它实验（VinePalmaToolbox、VinePalmaPlan、治世等）暂时保持私有。
 
 ## 🇹🇼 繁體中文
 
@@ -48,14 +63,29 @@
 - 🧩 相信「每天要點五下的操作，值得做成一個應用程式」
 - 💬 有問題歡迎開 issue
 
-| 專案 | 一句話 | 狀態 |
+### 工作室產品線
+
+產品線統一放在組織 [@VineTurtleStudio](https://github.com/VineTurtleStudio) 下：
+
+| 專案 | 一句話 | 技術棧 |
 |---|---|---|
-| **VinePalma Player** | 基於 FFmpeg 的本機播放器（Tauri + Rust） | [公開](https://github.com/VineTurtle/VinePalmaPlayer-Tauri) |
-| **VinePalma Pet** | 2D 桌面寵物：幀動畫、點擊穿透、沙箱外掛 | 私有 |
-| **VinePalma Toolbox** | 圖片 / 文字多功能工具箱 | 私有 |
-| **VineHub** | 檔案類工具的統一主面板（monorepo + sidecar 外掛） | 私有 |
-| **治世 · vine-sinitic** | Godot 4 遊戲原型 | 私有 |
-| **GrapeLeafi** | 靜態粉絲站 | [公開](https://github.com/VineTurtle/GrapeLeafi) |
+| **[VineHub](https://github.com/VineTurtleStudio/VineHub)** | 檔案類工具的統一面板，外掛走 sidecar | Tauri 2 + React |
+| **[VinePalmaPet](https://github.com/VineTurtleStudio/VinePalmaPet)** | 2D 桌面寵物：幀動畫、點擊穿透、沙箱外掛 | Tauri 2 + React |
+| **[VinePalmaLeaf](https://github.com/VineTurtleStudio/VinePalmaLeaf)** | 本地優先的電子書閱讀器（EPUB / PDF / TXT） | Tauri 2 + React |
+| **[VinePalmaFlow](https://github.com/VineTurtleStudio/VinePalmaFlow)** | 專案管理，資料是 Markdown / YAML，區域網路同步 | Tauri 2 + React |
+| **[VinePalmaUninstaller](https://github.com/VineTurtleStudio/VinePalmaUninstaller)** | Linux 軟體卸載與殘留清理（apt / flatpak / snap / docker） | Tauri 2 + Rust |
+| **[VinePalma-Player](https://github.com/VineTurtleStudio/VinePalma-Player)** | 基於 FFmpeg 的桌面媒體播放器 | Tauri 2 + Rust |
+
+### 個人小工具
+
+| 專案 | 一句話 | 技術棧 |
+|---|---|---|
+| **[album-renamer](https://github.com/VineTurtle/album-renamer)** | 掃描圖冊批次重新命名，瀏覽器介面 + 本機 Node 服務 | Node.js |
+| **[ratio-guardian](https://github.com/VineTurtle/ratio-guardian)** | 依下載 / 上傳比例自動調速、守住磁碟上限 | PowerShell |
+| **[Java-PDF-Scanner-Enhancer](https://github.com/VineTurtle/Java-PDF-Scanner-Enhancer)** | 掃描版 PDF 逐頁轉圖，依頁面類型分別增強 | Java + OpenCV |
+| **[GrapeLeafi](https://github.com/VineTurtle/GrapeLeafi)** | 靜態粉絲站 | HTML / CSS |
+
+> 其它實驗（VinePalmaToolbox、VinePalmaPlan、治世等）暫時保持私有。
 
 ## 🇬🇧 English
 
@@ -68,14 +98,29 @@ Most of what I build is **local-first**: your data stays on your machine and eve
 - 🧩 I believe "anything you click five times a day deserves an app"
 - 💬 Issues and questions are welcome
 
-| Project | What it is | Status |
+### Studio product line
+
+Product work lives in the [@VineTurtleStudio](https://github.com/VineTurtleStudio) organization:
+
+| Project | What it is | Stack |
 |---|---|---|
-| **VinePalma Player** | FFmpeg-based local media player (Tauri + Rust) | [Public](https://github.com/VineTurtle/VinePalmaPlayer-Tauri) |
-| **VinePalma Pet** | 2D desktop pet: frame animation, click-through, sandboxed plugins | Private |
-| **VinePalma Toolbox** | Image / text multi-tool box | Private |
-| **VineHub** | Unified host panel for file tools (monorepo + sidecar plugins) | Private |
-| **Zhishi · vine-sinitic** | Godot 4 game prototype | Private |
-| **GrapeLeafi** | Static fan site | [Public](https://github.com/VineTurtle/GrapeLeafi) |
+| **[VineHub](https://github.com/VineTurtleStudio/VineHub)** | host panel for the file tools; plugins run as sidecars | Tauri 2 + React |
+| **[VinePalmaPet](https://github.com/VineTurtleStudio/VinePalmaPet)** | 2D desktop pet: frame animation, click-through, sandboxed plugins | Tauri 2 + React |
+| **[VinePalmaLeaf](https://github.com/VineTurtleStudio/VinePalmaLeaf)** | local-first ebook reader (EPUB / PDF / TXT) | Tauri 2 + React |
+| **[VinePalmaFlow](https://github.com/VineTurtleStudio/VinePalmaFlow)** | project management on Markdown / YAML with LAN sync | Tauri 2 + React |
+| **[VinePalmaUninstaller](https://github.com/VineTurtleStudio/VinePalmaUninstaller)** | Linux uninstaller and leftover cleanup (apt / flatpak / snap / docker) | Tauri 2 + Rust |
+| **[VinePalma-Player](https://github.com/VineTurtleStudio/VinePalma-Player)** | FFmpeg-based desktop media player | Tauri 2 + Rust |
+
+### Personal utilities
+
+| Project | What it is | Stack |
+|---|---|---|
+| **[album-renamer](https://github.com/VineTurtle/album-renamer)** | batch renamer for scanned albums — browser UI, local Node service | Node.js |
+| **[ratio-guardian](https://github.com/VineTurtle/ratio-guardian)** | throttles downloads by target ratio and respects a disk cap | PowerShell |
+| **[Java-PDF-Scanner-Enhancer](https://github.com/VineTurtle/Java-PDF-Scanner-Enhancer)** | renders scanned PDFs page by page, with per-page-type enhancement | Java + OpenCV |
+| **[GrapeLeafi](https://github.com/VineTurtle/GrapeLeafi)** | static fan site | HTML / CSS |
+
+> Other experiments (VinePalmaToolbox, VinePalmaPlan, Zhishi, …) stay private for now.
 
 ## 🇯🇵 日本語
 
@@ -88,14 +133,29 @@ Most of what I build is **local-first**: your data stays on your machine and eve
 - 🧩 「毎日 5 回クリックする操作は、アプリにする価値がある」と考えています
 - 💬 Issue はお気軽にどうぞ
 
-| プロジェクト | 内容 | 状態 |
+### スタジオの製品ライン
+
+製品ラインは [@VineTurtleStudio](https://github.com/VineTurtleStudio) に集約しています：
+
+| プロジェクト | 内容 | スタック |
 |---|---|---|
-| **VinePalma Player** | FFmpeg ベースのローカルプレイヤー（Tauri + Rust） | [公開](https://github.com/VineTurtle/VinePalmaPlayer-Tauri) |
-| **VinePalma Pet** | 2D デスクトップペット：フレームアニメ、クリック透過、サンドボックスプラグイン | 非公開 |
-| **VinePalma Toolbox** | 画像 / テキストの多機能ツール | 非公開 |
-| **VineHub** | ファイル系ツールの統合パネル（monorepo + sidecar） | 非公開 |
-| **治世 · vine-sinitic** | Godot 4 ゲームプロトタイプ | 非公開 |
-| **GrapeLeafi** | 静的ファンサイト | [公開](https://github.com/VineTurtle/GrapeLeafi) |
+| **[VineHub](https://github.com/VineTurtleStudio/VineHub)** | ファイル系ツールの統合パネル（プラグインは sidecar） | Tauri 2 + React |
+| **[VinePalmaPet](https://github.com/VineTurtleStudio/VinePalmaPet)** | 2D デスクトップペット：フレームアニメ、クリック透過、サンドボックス | Tauri 2 + React |
+| **[VinePalmaLeaf](https://github.com/VineTurtleStudio/VinePalmaLeaf)** | ローカルファーストの電子書籍リーダー（EPUB / PDF / TXT） | Tauri 2 + React |
+| **[VinePalmaFlow](https://github.com/VineTurtleStudio/VinePalmaFlow)** | Markdown / YAML ベースのプロジェクト管理、LAN 同期 | Tauri 2 + React |
+| **[VinePalmaUninstaller](https://github.com/VineTurtleStudio/VinePalmaUninstaller)** | Linux のアンインストーラと残骸削除（apt / flatpak / snap / docker） | Tauri 2 + Rust |
+| **[VinePalma-Player](https://github.com/VineTurtleStudio/VinePalma-Player)** | FFmpeg ベースのデスクトップメディアプレイヤー | Tauri 2 + Rust |
+
+### 個人のユーティリティ
+
+| プロジェクト | 内容 | スタック |
+|---|---|---|
+| **[album-renamer](https://github.com/VineTurtle/album-renamer)** | スキャン図録の一括リネーム（ブラウザ UI + ローカル Node サービス） | Node.js |
+| **[ratio-guardian](https://github.com/VineTurtle/ratio-guardian)** | 目標比率で速度を調整し、ディスク上限を守る | PowerShell |
+| **[Java-PDF-Scanner-Enhancer](https://github.com/VineTurtle/Java-PDF-Scanner-Enhancer)** | スキャン PDF をページ単位で画像化し、種別ごとに補正 | Java + OpenCV |
+| **[GrapeLeafi](https://github.com/VineTurtle/GrapeLeafi)** | 静的ファンサイト | HTML / CSS |
+
+> その他の実験（VinePalmaToolbox、VinePalmaPlan、治世 など）は当面非公開です。
 
 ---
 
